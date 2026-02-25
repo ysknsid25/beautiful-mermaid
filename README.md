@@ -61,7 +61,7 @@ flowchart TD
     adminLogger  -.->|"❌ 禁止"| A4
     batchLogger  -.->|"❌ 禁止"| A4
 ```
-```
+
 
 これは以下のように表示されます。
 
