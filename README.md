@@ -14,6 +14,7 @@
 
 あとはブログ記事内で以下のようにMermaid記法の文章を埋め込むだけです。
 
+```
 ```mermaid
 flowchart TD
     subgraph LIB["@myapp/logger"]
@@ -59,6 +60,7 @@ flowchart TD
     appLogger    -.->|"❌ 禁止"| A4
     adminLogger  -.->|"❌ 禁止"| A4
     batchLogger  -.->|"❌ 禁止"| A4
+```
 ```
 
 これは以下のように表示されます。
