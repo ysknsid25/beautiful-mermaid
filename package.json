@@ -38,6 +38,7 @@
     "dev": "bun run dev.ts",
     "bench": "bun run bench.ts",
     "build": "bun run index.ts && mkdir -p dist && mv index.html dist/ && cp -r public/* dist/",
+    "build:browser": "bun build src/browser.ts --target browser --outfile dist/beautiful-mermaid.browser.min.js --minify",
     "deploy": "bun run build && wrangler pages deploy dist --project-name craft-agents-mermaid"
   },
   "dependencies": {

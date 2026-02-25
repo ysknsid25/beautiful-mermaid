@@ -3,6 +3,7 @@ node_modules/
 
 # Build output
 dist/
+!dist/beautiful-mermaid.browser.min.js
 *.tsbuildinfo
 
 # Generated files
