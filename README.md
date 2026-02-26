@@ -1,5 +1,7 @@
 **⚠️このリポジトリは[lukilabs/beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid)のforkです。StarやSponsorなどは本家リポジトリの方へお願いいたします。⚠️**
 
+詳細が気になる人は[ブログ](https://blog.inorinrinrin.com/entry/2026/02/26/113056)を読んでください。
+
 # このリポジトリの存在意義
 
 `browser.ts`をはてなブログ等、Webアプリケーションから部分的に利用するにあたりCDNにビルドしたjsを配信するために存在しています。
